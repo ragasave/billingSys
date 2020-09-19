@@ -1,2 +1,0 @@
-# billingSys
-Billing System
