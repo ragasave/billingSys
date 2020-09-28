@@ -263,6 +263,7 @@ export default {
       window.setInterval(() => {
         this.date = window.moment().format('DD-MM-YYYY h:m A');
       }, 60)
+      
   },
   data() {
     return {

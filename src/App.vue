@@ -1,14 +1,15 @@
 <template>
   <div>
     <Nav :invoices="invoices"/>
-    <div class="mx-auto pb-5 px-4 print-no-mt" style="margin-top: 80px;">
+    <div class="mx-auto pb-5 px-4 print-no-mt" style="margin-top: 100px;">
       <CreateBil :invoices="invoices"/>
     </div>
   </div>
 </template>
 
 <script>
-import CreateBil from './components/Create'
+// import CreateBil from './components/Create'
+import CreateBil from './components/v2'
 import Nav from './components/nav'
 export default {
   name: 'App',
